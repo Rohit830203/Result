@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 // MongoDB Connection
 async function connectDB() {
     try {
-        await mongoose.connect('mongodb://localhost:27017/your-db-name', { 
+        await mongoose.connect('mongodb+srv://rohitkumawat9587:1234@rohit.b5cke.mongodb.net/', { 
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
